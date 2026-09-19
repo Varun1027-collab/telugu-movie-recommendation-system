@@ -9,11 +9,11 @@ The system uses the movie's Genre and Overview to calculate similarity between m
 
 ### 🏠 Movie Recommender Interface
 
-![Movie Recommender Interface](Screenshot%202026-09-19%20210711.png)
+(movie-recommender-home.png)
 
 ### 🍿 Movie Recommendations
+(movie-recommendations.png)
 
-![Movie Recommendations](Screenshot%202026-09-19%20210838.png)
 
 ## 🛠️ Technologies Used
 
