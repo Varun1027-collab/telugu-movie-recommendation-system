@@ -1,6 +1,6 @@
 # 🎬 Telugu Movie Recommendation System
 
-A Machine Learning based movie recommendation system that recommends movies similar to a selected Telugu movie.
+A **Machine Learning-based content recommendation system** that recommends movies similar to a selected Telugu movie.
 
 ## 📌 Project Overview
 
@@ -20,47 +20,31 @@ The system uses the movie's **Genre** and **Overview** to calculate similarity b
 
 ### TF-IDF
 
-TF-IDF converts the movie's text information into numerical features.
+**TF-IDF (Term Frequency-Inverse Document Frequency)** converts movie text information into numerical features.
 
 ### Cosine Similarity
 
-Cosine Similarity compares the numerical features of movies and finds movies with similar content.
+**Cosine Similarity** compares the numerical features of movies and identifies movies with similar content.
 
 ## 📊 Dataset
 
 The project uses a Telugu Movies dataset.
 
-Current dataset coverage:
+**Current dataset coverage:**
 
-* Movies: **979**
-* Years: **2000–2020**
-* Features: Movie, Year, Certificate, Genre, Overview, Runtime, Rating and Number of Ratings
+* 🎬 Movies: **979**
+* 📅 Years: **2000–2020**
+* 📋 Features: Movie, Year, Certificate, Genre, Overview, Runtime, Rating and Number of Ratings
 
 ## ⚙️ How the System Works
 
 1. Load the movie dataset.
 2. Clean missing and duplicate data.
-3. Combine **Genre** and **Overview**.
+3. Combine **Genre** and **Overview** information.
 4. Convert the text into numerical features using **TF-IDF**.
-5. Calculate similarity using **Cosine Similarity**.
+5. Calculate movie similarity using **Cosine Similarity**.
 6. Select a movie through the Streamlit interface.
 7. Display the most similar movies.
-
-## ▶️ How to Run
-
-Install the required libraries:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the Streamlit application:
-
-```bash
-streamlit run app.py
-```
-
-The application will open in the browser.
 
 ## 🎯 Features
 
@@ -85,10 +69,37 @@ For example, selecting **Arjun Reddy** produces recommendations such as:
 
 The similarity percentage represents the **text similarity between movies**, based on their Genre and Overview.
 
-## 👨‍💻 Project
+## ▶️ How to Run
 
-**Project:** Movie Recommendation System
+Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
+The application will open in the browser.
+
+## 📚 Learning Outcomes
+
+Through this project, I gained practical experience with:
+
+* Content-Based Recommendation Systems
+* TF-IDF Vectorization
+* Cosine Similarity
+* Data Preprocessing
+* Machine Learning
+* Streamlit Application Development
+
+## 👨‍💻 Project Details
+
+**Project:** Telugu Movie Recommendation System
 **Domain:** Machine Learning
 **Recommendation Type:** Content-Based Filtering
-**Algorithm:** TF-IDF + Cosine Similarity
+**Technique:** TF-IDF + Cosine Similarity
 **Interface:** Streamlit
