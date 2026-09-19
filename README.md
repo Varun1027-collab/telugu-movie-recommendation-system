@@ -3,10 +3,17 @@
 A **Machine Learning-based content recommendation system** that recommends movies similar to a selected Telugu movie.
 
 ## 📌 Project Overview
+This project uses a Content-Based Recommendation System to find movies that are similar to a user's selected movie.
+The system uses the movie's Genre and Overview to calculate similarity between movies.
+## 📸 Application Screenshots
 
-This project uses a **Content-Based Recommendation System** to find movies that are similar to a user's selected movie.
+### 🏠 Movie Recommender Interface
 
-The system uses the movie's **Genre** and **Overview** to calculate similarity between movies.
+![Movie Recommender Interface](Screenshot%202026-09-19%20210711.png)
+
+### 🍿 Movie Recommendations
+
+![Movie Recommendations](Screenshot%202026-09-19%20210838.png)
 
 ## 🛠️ Technologies Used
 
